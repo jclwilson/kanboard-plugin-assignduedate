@@ -25,7 +25,7 @@ class Plugin extends Base
     }
     public function getPluginDescription()
     {
-        return 'Assigns a due date relative (in days) to the current time when moving a card to specified column';
+        return 'Automatically set the due date relative to the current time when the task is moved to a specific column';
     }
     public function getPluginHomepage()
     {
